@@ -1,0 +1,58 @@
+*{
+	margin:0px;
+	padding:0px
+}
+
+#container::before{
+    content: "";
+    background-image: url('../img/bg1.jpg');
+    background-size: 100% 100%;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#headingDiv{
+	height: 5rem;
+	text-align: center;
+	position:relative;
+}
+#headingDiv h1{
+	font-size:2.9rem;
+	position: relative;
+	top: 1.2rem;
+	color:#002b55;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;   
+    height: 100%;
+    position:relative;
+	top:4rem;
+}
+
+
+.inputForm{
+    width:15rem;
+	height:1.8rem;
+	border-radius: 5px;
+	text-align: center;
+	font-size:1rem;
+	margin:0.6rem;
+}
+.SaveBtn{
+	width:6rem;
+	height:2rem;
+	border-radius: 5px;
+    font-size:1rem;
+    color:white;
+    background-color:#0080c0;
+    margin:0.6rem;
+}
+.SaveBtn:hover{
+    cursor: pointer;
+}
